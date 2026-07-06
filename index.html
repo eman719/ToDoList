@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My To-Do List</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="card">
+
+    <!-- Header -->
+    <h1>📝 My To-Do List</h1>
+    <p id="counter">Tasks remaining: <span id="remainingCount">0</span></p>
+
+    <!-- Input row -->
+    <div class="input-row">
+      <input type="text" id="taskInput" placeholder="Type a task here..." />
+      <button id="addBtn">Add</button>
+    </div>
+
+    <!-- Error message — shown/hidden by JS -->
+    <p id="errorMsg"></p>
+
+    <!-- Task list — filled by JS -->
+    <ul id="taskList"></ul>
+
+    <!-- Clear all -->
+    <button id="clearBtn">🗑 Clear All</button>
+
+    <hr class="divider" />
+
+    <!-- BONUS: Color picker -->
+    <div class="color-section">
+      <p>Background color</p>
+      <div class="color-options">
+        <!--
+          Each circle has a data-color attribute.
+          In your JS, read it with: circle.dataset.color
+          Then set: document.body.style.backgroundColor = circle.dataset.color
+        -->
+        <div class="color-circle active" data-color="#1e1e2e"></div>
+        <div class="color-circle"        data-color="#37474f"></div>
+        <div class="color-circle"        data-color="#1a237e"></div>
+        <div class="color-circle"        data-color="#4a148c"></div>
+        <div class="color-circle"        data-color="#880e4f"></div>
+        <div class="color-circle"        data-color="#bf360c"></div>
+        <div class="color-circle"        data-color="#1b5e20"></div>
+      </div>
+    </div>
+
+    <!-- All done celebration message — shown by JS -->
+    <p class="all-done-msg" id="allDoneMsg">🎉 All tasks done! Great job!</p>
+
+  </div>
+
+  <!--
+    ============================================================
+    YOUR JS GOES HERE — write your script.js and link it below
+    ============================================================
+  -->
+  <script src="script.js" defer></script>
+
+</body>
+</html>
