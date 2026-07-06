@@ -1,5 +1,5 @@
 # To-Do List App
- ![result](screenshot(6))
+ ![result](Screenshot (6).png)
 ## Features
 - Add new tasks
 - Mark tasks as Done / Undo
@@ -12,7 +12,7 @@
 ## Technologies Used
 - HTML
 - CSS
-- JavaScript (Vanilla)
+- JavaScript
 
 ##  How to Run
 1. Download or clone the project
