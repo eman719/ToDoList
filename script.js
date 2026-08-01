@@ -19,7 +19,7 @@ if (savedTasks) {
 function addTask() {
     let taskText = inputBox.value.trim();
 
-    if (taskText === "") {
+    if (taskText ===  "") {
         errorMsg.textContent = "Please type a task first.";
         return;
     }
@@ -112,7 +112,7 @@ function updateCounter() {
         completed + " of " + tasks.length + " tasks completed";
 
     if (tasks.length > 0 && remaining == 0) {
-        counter.textContent = "🎉 All tasks done! Great job!";
+        counter.textContent = "All tasks done! Great job!";
         counter.classList.add("all-done-msg");
         counter.classList.add("visible");
     }
