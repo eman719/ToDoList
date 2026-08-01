@@ -1,5 +1,5 @@
 # To-Do List App
-  ![result](Screenshot (6).png)
+  ![result](Screenshot.png)
 ## Features
 - Add new tasks
 - Mark tasks as Done / Undo
